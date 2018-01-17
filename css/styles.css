@@ -7,3 +7,15 @@
 #bye{
   display:none;
 }
+
+.good {
+  background-color: lightblue;
+}
+
+.bad {
+  background-color: lightgray;
+}
+
+.bye {
+  background-color: crimson;
+}

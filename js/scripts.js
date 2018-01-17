@@ -26,7 +26,7 @@ $(document).ready(function(){
     } else if (totalPoints > 5 && totalPoints < 10){
       $("#bad").show("swing");
     } else {
-      $("#bye").show("swing");
+      $("#bye").show(200,"swing");
     }
 
     event.preventDefault();
