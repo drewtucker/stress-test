@@ -6,9 +6,56 @@
     <link rel="stylesheet" href="css/styles.css">
     <script src="js/jquery-3.2.1.js"></script>
     <script src="js/scripts.js"></script>
-    <title></title>
+    <title>stress Test</title>
   </head>
   <body>
-
+    <div class="container">
+      <h1>How stressed are you?</h1>
+      <h4>Why you stressin'? Answer some questions and we'll tell you bad you're messing up.</h4>
+      <form id="stress-survey">
+        <div class="form-group">
+          <p>Warning Signs:</p>
+          <input type="checkbox" name="warning-signs" value="sleep"> Lack of sleep.<br>
+          <input type="checkbox" name="warning-signs" value="bald"> Hair loss.<br>
+          <input type="checkbox" name="warning-signs" value="anxious"> Anxiousness.<br>
+          <input type="checkbox" name="warning-signs" value="binge"> Binge eating.<br>
+          <input type="checkbox" name="warning-signs" value="irritate"> Irritability.<br>
+        </div>
+        <div class="form-group">
+          <p>Health Symptoms:</p>
+          <input type="checkbox" name="health-symptoms" value="hi-blood"> High blood pressure.<br>
+          <input type="checkbox" name="health-symptoms" value="chronic"> Chronic anxiety.<br>
+          <input type="checkbox" name="health-symptoms" value="rapid-heart"> Rapid heart beat.<br>
+          <input type="checkbox" name="health-symptoms" value="depression"> Depression.<br>
+          <input type="checkbox" name="health-symptoms" value="infection"> Frequent colds and infections.<br>
+        </div>
+        <div class="form-group">
+          <p>Coping Methods:</p>
+          <input type="checkbox" name="coping-methods" value="pet"> Pet a dog.<br>
+          <input type="checkbox" name="coping-methods" value="workout"> Exercise.<br>
+          <input type="checkbox" name="coping-methods" value="dank"> 4/20 Blaze it.<br>
+          <input type="checkbox" name="coping-methods" value="meditate"> Meditate.<br>
+          <input type="checkbox" name="coping-methods" value="hydrate"> Hydrate.<br>
+        </div>
+        <button type="submit" class="btn btn-success">Submit</button>
+      </form>
+      <br>
+      <div class="result">
+        <div id="good">
+          <h3>RESULT:</h3>
+          <p> You're in <b> EXCELLENT </b> condition! Keep doing you fam! </p>
+        </div>
+        <div id="bad">
+          <h3>RESULT:</h3>
+          <p> Oh <em>DAMN</em> dude! You stressed out, fam! Here check this link out for some remedies to calm down.</p>
+          <a href="https://www.wikihow.com/Reduce-Stress"> How to Reduce Stress</a>
+        </div>
+        <div id="bye">
+          <h3>RESULT:</h3>
+          <p> You should probably go see an expert. There's no way I can help you. My bad, dawg. </p>
+          <img src="dabhang.gif" alt="DAB AND HANG">
+        </div>
+      </div>
+    </div>
   </body>
 </html>
